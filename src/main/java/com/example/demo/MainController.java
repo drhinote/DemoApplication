@@ -9,7 +9,7 @@ public class MainController implements SomeInterface {
 	
 	@GetMapping("/") 
 	public String base() {
-		return "Hello world";
+		return "Hello world!";
 	}
 
 }
